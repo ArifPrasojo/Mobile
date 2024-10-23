@@ -80,6 +80,10 @@ class MyApp extends StatelessWidget {
         ),
         body: ListView(
           children: [
+            Image.asset(
+            'assets/images/gunung.jpg', // Perbaiki path sesuai dengan lokasi aset
+            fit: BoxFit.cover, // Sesuaikan ukuran gambar
+            ),
             titleSection,  // Title section
             buttonSection, // Button section
             textSection,   // Text section
